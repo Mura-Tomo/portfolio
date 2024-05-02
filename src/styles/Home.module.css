@@ -1,0 +1,48 @@
+.for_pc {
+    display: block;
+  }
+  
+.for_sp {
+    display: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    min-height: 100vh;
+    background-color: white;
+    filter: brightness();   
+}
+
+.text {
+  color: white;
+  text-shadow: 0 0 20px rgba(255, 212, 0, 1.0)
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+  .for_pc {
+    display: none;
+  }
+
+  .for_sp {
+    display: block;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    min-height: 100vh;
+    background-color: white;
+    filter: brightness();   
+  }
+
+  .text {
+    color: white;
+    text-shadow: 0 0 20px rgba(255, 212, 0, 1.0)
+  }
+}
