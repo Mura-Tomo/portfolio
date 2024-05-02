@@ -30,11 +30,11 @@ export default function Home() {
     <>
     <main className={styles.main}>
       <div className='container'>
-        <SlideInRight>
+        <SlideInLeft>
           <div id="about" className="text-center mt-10 text-[min(10vw,100px)]">
               About Me
           </div>      
-        </SlideInRight>
+        </SlideInLeft>
           <div className='mx-auto text-center text-[min(4vw,40px)] rounded-lg bg-sky-500/100 text-white shadow-lg'>名前</div>
           <div className='mx-auto text-center text-[min(5vw,50px)] mt-3'>村田 知弥 (Murata Tomoya)</div>
           <div className='mx-auto text-center text-[min(4vw,40px)] rounded-lg bg-sky-500/100 text-white shadow-lg mt-5'>所属</div>
@@ -242,7 +242,7 @@ export default function Home() {
             <div className="shadow card h-100">
                 <img src="portfolio1.png" className="card-img-top"/>
                 <div className="card-body">
-                <a href=""><h4>portfolio</h4></a>
+                <a href="https://github.com/Mura-Tomo/portfolio"><h4>portfolio</h4></a>
                 <div className="card-text">この自己紹介用のWebページです。シンプルなデザインを心掛けました。</div>
                 <div className="px-6 pt-3">
                   <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">React</span>
