@@ -59,7 +59,7 @@ export default function Home() {
             </tbody>
           </table>
           <div className='mx-auto text-center text-[min(4vw,40px)] rounded-lg bg-sky-500/100 text-white shadow-lg mt-5 mb-3'>研究</div>
-          <div className='mx-auto text-center text-[min(3vw,30px)]'>
+          <div className='mx-auto text-center text-[min(4vw,30px)]'>
             《自然言語情報を導入した星空画像生成》
           </div>
           <div className='mx-auto'>
@@ -70,7 +70,7 @@ export default function Home() {
           <div className='mx-auto'>
             AIは大まかな特徴を掴んで類似の画像を生成することには優れている一方で小さな点の集合を正確に生成することは苦手としている。そこで、GANによる画像生成とCLIPによる類似度計算を組み合わせることで、テキスト情報に即した画像を生成する手法を提案する。
           </div>
-          <div className='mx-auto text-center text-[min(3vw,30px)] mt-5'>
+          <div className='mx-auto text-center text-[min(4vw,30px)] mt-5'>
             《深層学習を用いた天体画像の解析》
           </div>
           <div className='mx-auto'>
@@ -83,7 +83,7 @@ export default function Home() {
           <div className='mx-auto'>
             赤外線リングのデータセットをDataAugmentationで拡張し、それをGANで学習させて生成した画像をリングかどうか識別する手法を提案する。また、銀河衝突シミュレーションにより銀河を作成し、それを用いて観測者から見た空の様子を示す画像を生成する手法を提案する。
           </div>
-          <div className='mx-auto text-center text-[min(3vw,30px)] mt-5'>
+          <div className='mx-auto text-center text-[min(4vw,30px)] mt-5'>
             《RLHFを用いたLLMの学習手法の検討》
           </div>
           <div className='mx-auto'>
@@ -97,13 +97,13 @@ export default function Home() {
             LLMの価値観や目的を人間と合致させるため、アライメントの調整が必要とされるようになりRLHFが注目されている。そこで、ゲームシナリオデータを用いて、数文字に続くキャラクターの性格にあった文章を生成することでRLHFを用いたLLMの学習手法を検討した。
           </div>
           <div className='mx-auto text-center text-[min(4vw,40px)] rounded-lg bg-sky-500/100 text-white shadow-lg mt-5 mb-3'>趣味</div>
-          <div className='mx-auto text-center text-[min(3vw,30px)]'>旅行、スポーツ観戦（サッカー）、映画鑑賞</div>
+          <div className='mx-auto text-center text-[min(4vw,30px)]'>旅行、スポーツ観戦（サッカー）、映画鑑賞</div>
 
         <SlideInLeft>
         <div id="skill" className="text-center mt-10 text-[min(10vw,100px)]">Skill</div>     
         </SlideInLeft>
-        <div className='mx-auto text-[min(3vw,30px)]'>最も得意な言語は普段の研究で用いている Python です。上の「研究」で説明した要素技術を使用するため、深層学習用のライブラリである PyTorch で記述しています。</div>
-        <div className='mx-auto text-[min(3vw,30px)]'>次に得意なのはこのポートフォリオの作成にも使っている React/Next.js です。部活動のホームページを作る際に共同開発も経験しました。</div>       
+        <div className='mx-auto text-[min(4vw,30px)]'>最も得意な言語は普段の研究で用いている Python です。上の「研究」で説明した要素技術を使用するため、深層学習用のライブラリである PyTorch で記述しています。</div>
+        <div className='mx-auto text-[min(4vw,30px)]'>次に得意なのはこのポートフォリオの作成にも使っている React/Next.js です。部活動のホームページを作る際に共同開発も経験しました。</div>       
         <div className='flex justify-center items-center gap-4'>
         <div className={styles.for_pc}>
             <RadarChart // レーダーチャートのサイズや位置、データを指定
@@ -158,7 +158,7 @@ export default function Home() {
         </div>
         </div>
 
-        <div style={{height: '300px'}} className={styles.for_sp}>
+        <div style={{height: '230px'}} className={styles.for_sp}>
           <ResponsiveContainer>
             <RadarChart // レーダーチャートのサイズや位置、データを指定
                 height={400} //レーダーチャートの全体の高さを指定
@@ -187,7 +187,7 @@ export default function Home() {
             </RadarChart> 
           </ResponsiveContainer>
         </div>
-        <div style={{height: '300px'}} className={styles.for_sp}>
+        <div style={{height: '230px'}} className={styles.for_sp}>
           <ResponsiveContainer>
             <RadarChart // レーダーチャートのサイズや位置、データを指定
                 height={400} //レーダーチャートの全体の高さを指定
@@ -217,8 +217,7 @@ export default function Home() {
         <SlideInLeft>
           <div id="project" className="text-center mt-10 text-[min(10vw,100px)]">Project</div>      
         </SlideInLeft>
-        <div className='mx-auto text-[min(3vw,30px)]'>下線を押すと私の GitHub アカウントへ飛びます。デモ動画や Web ページを公開しているのでご覧ください。</div>
-        <div className='container mt-5'>
+        <div className='mx-auto text-[min(4vw,30px)] mb-3'>下線を押すと私の GitHub アカウントへ飛びます。デモ動画や Web ページを公開しているのでご覧ください。</div>
             <div className="row row-cols-1 row-cols-md-3 g-4">
             <div className="col">
             <div className="shadow card h-100">
@@ -299,11 +298,10 @@ export default function Home() {
             </div>
             </div>
             </div>
-        </div>
         <SlideInLeft>
           <div id="contact" className="text-center mt-10 text-[min(10vw,100px)]">Contact</div>      
         </SlideInLeft>
-        <div className='mx-auto text-[min(3vw,30px)] mb-3'>お気軽にお問い合わせください。</div>
+        <div className='mx-auto text-[min(4vw,30px)] mb-3'>お気軽にお問い合わせください。</div>
         <form action={process.env.NEXT_PUBLIC_NEWT_FORM_ENDPOINT} method="post">
           <div className='mb-3'>
               <label htmlFor='name' className='form-label'>
