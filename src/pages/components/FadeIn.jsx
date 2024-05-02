@@ -51,3 +51,5 @@ export const SlideInLeft = ({ children }) => {
         </div>
     )
 }
+
+export default SlideInLeft

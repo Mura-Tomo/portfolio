@@ -6,6 +6,7 @@ import {
   PolarAngleAxis, PolarRadiusAxis,
   ResponsiveContainer
 } from 'recharts';
+import React from 'react';
 
 const dataRadar1 = [
   { rank: 'HTML/CSS', score: 70, fullMark: 100},
@@ -29,11 +30,11 @@ export default function Home() {
     <>
     <main className={styles.main}>
       <div className='container'>
-        <FadeIn>
+        <SlideInRight>
           <div id="about" className="text-center mt-10 text-[min(10vw,100px)]">
               About Me
           </div>      
-        </FadeIn>
+        </SlideInRight>
           <div className='mx-auto text-center text-[min(4vw,40px)] rounded-lg bg-sky-500/100 text-white shadow-lg'>名前</div>
           <div className='mx-auto text-center text-[min(5vw,50px)] mt-3'>村田 知弥 (Murata Tomoya)</div>
           <div className='mx-auto text-center text-[min(4vw,40px)] rounded-lg bg-sky-500/100 text-white shadow-lg mt-5'>所属</div>
