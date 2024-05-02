@@ -1,4 +1,5 @@
 import { useInView } from 'react-intersection-observer';
+import React from 'react';
 
 export const FadeIn = ({ children }) => {
     const { ref, inView } = useInView({
