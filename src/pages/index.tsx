@@ -102,7 +102,7 @@ export default function Home() {
         <SlideInLeft>
         <div id="skill" className="text-center mt-10 text-[min(10vw,100px)]">Skill</div>     
         </SlideInLeft>
-        <div className='mx-auto text-[min(4vw,30px)]'>最も得意な言語は普段の研究で用いているPythonです。上の「研究」で説明した要素技術を使用するため、深層学習用のライブラリであるPyTorch で記述しています。</div>
+        <div className='mx-auto text-[min(4vw,30px)]'>最も得意な言語は普段の研究で用いているPythonです。上の「研究」で説明した要素技術を使用するため、深層学習用のライブラリであるPyTorchで記述しています。</div>
         <div className='mx-auto text-[min(4vw,30px)]'>次に得意なのはこのポートフォリオの作成にも使っているReact/Next.jsです。部活動のホームページを作る際に共同開発も経験しました。</div>       
         <div className='flex justify-center items-center gap-4'>
         <div className={styles.for_pc}>
@@ -158,7 +158,7 @@ export default function Home() {
         </div>
         </div>
 
-        <div style={{height: '200px'}} className={styles.for_sp}>
+        <div style={{height: '180px'}} className={styles.for_sp}>
           <ResponsiveContainer>
             <RadarChart // レーダーチャートのサイズや位置、データを指定
                 height={400} //レーダーチャートの全体の高さを指定
@@ -187,7 +187,7 @@ export default function Home() {
             </RadarChart> 
           </ResponsiveContainer>
         </div>
-        <div style={{height: '200px'}} className={styles.for_sp}>
+        <div style={{height: '180px'}} className={styles.for_sp}>
           <ResponsiveContainer>
             <RadarChart // レーダーチャートのサイズや位置、データを指定
                 height={400} //レーダーチャートの全体の高さを指定
