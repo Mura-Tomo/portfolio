@@ -8,4 +8,4 @@ ReactのフレームワークであるNext.jsを用いて開発しています�
 
 以下のURLからWebページを閲覧できます。
 
-https://enigma-website-indol.vercel.app/
+https://www.murata-portfolio.com/
