@@ -68,7 +68,7 @@ export default function Home() {
             CLIP(Contrastive Language-Image Pre-training)
           </div>
           <div className='mx-auto'>
-            AIは大まかな特徴を掴んで類似の画像を生成することには優れている一方で小さな点の集合を正確に生成することは苦手としている。そこで、GANによる画像生成とCLIPによる類似度計算を組み合わせることで、テキスト情報に即した画像を生成する手法を提案する。
+            AIは大まかな特徴を掴んで類似の画像を生成することには優れている一方で、小さな点の集合を正確に生成することは苦手としています。そこで、敵対的生成ネットワーク(GAN)による画像生成と、画像とテキストを組み合わせたマルチモーダル学習(CLIP)による類似度計算を組み合わせることで、テキスト情報に即した画像を生成する手法を提案しました。
           </div>
           <div className='mx-auto text-center text-[min(4vw,30px)] mt-5'>
             《深層学習を用いた天体画像の解析》
@@ -81,7 +81,7 @@ export default function Home() {
             k-means法
           </div>
           <div className='mx-auto'>
-            赤外線リングのデータセットをDataAugmentationで拡張し、それをGANで学習させて生成した画像をリングかどうか識別する手法を提案する。また、銀河衝突シミュレーションにより銀河を作成し、それを用いて観測者から見た空の様子を示す画像を生成する手法を提案する。
+            赤外線リングのデータセットをDataAugmentationで拡張し、それを敵対的生成ネットワーク(GAN)で学習させて生成した画像をリングかどうか識別する手法を提案しました。また、銀河衝突シミュレーションにより銀河を作成し、それを用いて観測者から見た空の様子を示す画像を生成する手法を提案しました。
           </div>
           <div className='mx-auto text-center text-[min(4vw,30px)] mt-5'>
             《RLHFを用いたLLMの学習手法の検討》
@@ -94,10 +94,12 @@ export default function Home() {
             BERT(Bidirectional Encoder Representations from Transformers)
           </div>
           <div className='mx-auto'>
-            LLMの価値観や目的を人間と合致させるため、アライメントの調整が必要とされるようになりRLHFが注目されている。そこで、ゲームシナリオデータを用いて、数文字に続くキャラクターの性格にあった文章を生成することでRLHFを用いたLLMの学習手法を検討した。
+            大規模言語モデル(LLM)の価値観や目的を人間と合致させるためアライメントの調整が必要とされるようになり、人間のフィードバックからの強化学習(RLHF)が注目されています。そこで、ゲームシナリオデータを用いて、数文字に続くキャラクターの性格にあった文章を生成することでRLHFを用いたLLMの学習手法を検討しました。
           </div>
           <div className='mx-auto text-center text-[min(4vw,40px)] rounded-lg bg-sky-500/100 text-white shadow-lg mt-5 mb-3'>趣味</div>
           <div className='mx-auto text-center text-[min(4vw,30px)]'>旅行、スポーツ観戦（サッカー）、映画鑑賞</div>
+          <div className='mx-auto text-center text-[min(4vw,40px)] rounded-lg bg-sky-500/100 text-white shadow-lg mt-5 mb-3'>特技</div>
+          <div className='mx-auto text-center text-[min(4vw,30px)]'>書道、卓球</div>
 
         <SlideInLeft>
         <div id="skill" className="text-center mt-10 text-[min(10vw,100px)]">Skill</div>     
@@ -158,7 +160,7 @@ export default function Home() {
         </div>
         </div>
 
-        <div style={{height: '180px'}} className={styles.for_sp}>
+        <div style={{height: '170px'}} className={styles.for_sp}>
           <ResponsiveContainer>
             <RadarChart // レーダーチャートのサイズや位置、データを指定
                 height={400} //レーダーチャートの全体の高さを指定
@@ -187,7 +189,7 @@ export default function Home() {
             </RadarChart> 
           </ResponsiveContainer>
         </div>
-        <div style={{height: '180px'}} className={styles.for_sp}>
+        <div style={{height: '170px'}} className={styles.for_sp}>
           <ResponsiveContainer>
             <RadarChart // レーダーチャートのサイズや位置、データを指定
                 height={400} //レーダーチャートの全体の高さを指定
